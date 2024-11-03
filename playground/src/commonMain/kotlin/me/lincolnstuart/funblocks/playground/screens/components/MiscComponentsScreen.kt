@@ -26,6 +26,7 @@ import me.lincolnstuart.funblocks.playground.screens.components.misc.ChatMessage
 import me.lincolnstuart.funblocks.playground.screens.components.misc.ChipScreen
 import me.lincolnstuart.funblocks.playground.screens.components.misc.DividerScreen
 import me.lincolnstuart.funblocks.playground.screens.components.misc.FeedbackScreen
+import me.lincolnstuart.funblocks.playground.screens.components.misc.ListItemScreen
 import me.lincolnstuart.funblocks.playground.screens.components.misc.ListScreen
 import me.lincolnstuart.funblocks.playground.screens.components.misc.LoadingScreen
 import me.lincolnstuart.funblocks.playground.screens.components.misc.NotificationScreen
@@ -72,6 +73,7 @@ class MiscComponentsScreen : Screen {
         "Divider" to DividerScreen(),
         "Feedback" to FeedbackScreen(),
         "List" to ListScreen(),
+        "ListItem" to ListItemScreen(),
         "Loading" to LoadingScreen(),
         "Notification" to NotificationScreen(),
         "Progress" to ProgressScreen(),
